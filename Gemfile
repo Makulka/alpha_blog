@@ -10,6 +10,8 @@ gem 'bcrypt', '~> 3.1.7'
 #gem for pagination
 gem 'will_paginate', '3.1.5'
 gem 'bootstrap-will_paginate', '1.0.0'
+#for integration test - for method assert_template
+gem 'rails-controller-testing'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
